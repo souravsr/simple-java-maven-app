@@ -20,6 +20,6 @@ public class AppTest
     public void testAppMessage()
     {
         App app = new App();
-        assertEquals("Hello World! It's a very good day today", app.getMessage());
+        assertEquals("Hello World! It's a very good day today, isn't so", app.getMessage());
     }
 }
